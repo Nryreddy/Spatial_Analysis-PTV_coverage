@@ -2,6 +2,7 @@
 
 ## Overview
 This project provides a detailed spatial analysis of public transportation accessibility and coverage within Melbourne's metropolitan area, focusing on **Statistical Area Level 2 (SA2)** and **Statistical Area Level 4 (SA4)** regions. By analyzing the distribution of train, tram, and bus stops across Melbourne, this project aims to identify areas with high accessibility, regions with multi-modal options, and gaps in coverage. The results are designed to inform urban planning and policy decisions, with a specific emphasis on improving transport accessibility and connectivity for Melbourne’s growing population.
+![Melbourne Public Transport Coverage](pics/Capture1.PNG)
 
 ## Datasets Used
 1. **PTV/GTFS Dataset (March 2023):**
@@ -31,11 +32,14 @@ The project includes a series of visualizations:
 - **Heat Maps** for tram, train, and bus stops across SA4 and SA2 areas to show density and highlight gaps.
 - **Catchment Maps** for 5 km and 7 km train station zones to assess accessibility.
 - **Comparison Charts** of stop counts across modes for top SA2 regions, showing the extent of multi-modal options.
+![Melbourne Public Transport Coverage](pics/Capture2.PNG)
 
 ## Project Structure
 - **SQL Scripts:** Contain data restoration, preprocessing, and spatial analysis steps.
 - **Visualizations:** Maps and charts demonstrating findings for each transport mode.
 - **Documentation:** Detailed report summarizing methodology, analysis, results, and recommendations.
+![Melbourne Public Transport Coverage](pics/Capture3.PNG)
+![Melbourne Public Transport Coverage](pics/Capture4.PNG)
 
 ## How to Run
 1. Import datasets into PostgreSQL with PostGIS enabled.
@@ -44,3 +48,5 @@ The project includes a series of visualizations:
 
 ## Conclusion
 This spatial analysis highlights the strengths and weaknesses of Melbourne’s public transport network. While buses provide widespread coverage, trains and trams have targeted reach, leaving certain areas underserved. This project underscores the need for enhanced multi-modal integration to better serve Melbourne’s diverse communities and support future growth.
+![Melbourne Public Transport Coverage](pics/Capture5.PNG)
+![Melbourne Public Transport Coverage](pics/Capture6.PNG)
